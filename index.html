@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>luiz</title>
+</head>
+<body>
+    <header>
+       <img src="images.png" height="50" width="50" >
+        <nav>
+            <ul>
+                <li><a href="#" onclick="showPopup('jshistoria')">História</a></li>
+
+                <li><a href="#" onclick="showPopup('jsRelação')">Relação com HTML e CSS</a></li>
+
+                <li><a href="#" onclick="showPopup('jsRelaçãophp')">Relação com PHP</a></li>
+            </ul>
+        </nav>
+    </header>
+
+      <div class="textodedeus"> <h1> FÉ EM DEUS QUE DA CERTO </h1> </div>
+    
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" onclick="closePopup()">&times;</span>
+            <div id="popup-text"></div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
